@@ -7,7 +7,6 @@ export default {
   ],
   theme: {
     extend: {
-      extend: {
         screens: {
           sm: '640px',
           md: '768px',
@@ -15,9 +14,7 @@ export default {
           xl: '1280px',
           '2xl': '1536px',
         },
-      },
     },
   },
   plugins: [],
 } satisfies Config
-
